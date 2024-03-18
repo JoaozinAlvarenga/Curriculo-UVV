@@ -1,0 +1,16 @@
+
+th {
+    background-color: purple;
+}
+
+h1 {
+    font: bold;
+    border: 5px solid purple;
+    text-align:center;
+    border-radius: 20px;
+    font-size: 32px;
+}
+
+img {
+    box-shadow: 7px 7px #888888;
+}
