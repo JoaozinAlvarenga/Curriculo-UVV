@@ -1,3 +1,0 @@
-Projeto em andamento...
-
-Introduzido na Universidade de Vila Velha
