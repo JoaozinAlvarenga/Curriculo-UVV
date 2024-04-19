@@ -5,6 +5,6 @@ Trabalho introdutório pela Universidade de Vila Velha .
 <p  align="center">
 Programações usadas:
 - HTML & CSS
-- Github
-- JavaScript
+e consequentemente depois JavaScript.
 </p>
+
