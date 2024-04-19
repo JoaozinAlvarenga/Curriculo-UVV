@@ -54,7 +54,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: rgb(4, 4, 4);
     height: 100vh;
     font-family: "Ubuntu", sans-serif;
 }
@@ -72,7 +72,7 @@ body{
   padding: 15px 30px;
   font-size: 18px;
   font-weight: 600;
-  background-color: #004AAD;
+  background-color: #69239E;
   border: 0;
   border-radius: 30px;
   cursor: pointer;
@@ -86,11 +86,11 @@ h2.titulo{
 }
 
 h2.titulo span{
-  color: #004AAD;
+  color: #69239E;
 }
 
 button:hover, form .btn-enviar input:hover{
-  box-shadow: 0px 0px 8px #003cff;
+  box-shadow: 0px 0px 8px #69239E;
   transform: scale(1.05);
 }
 
@@ -146,7 +146,7 @@ section.topo-do-site .flex{
 }
 
 .topo-do-site .txt-topo-site h1 span{
-  color: #004AAD;
+  color: #69239E;
 }
 
 .topo-do-site .txt-topo-site p{
@@ -192,7 +192,7 @@ gap: 60px;
 
 .especialidades .especialidades-box i{
   font-size: 72px;
-  color: #004AAD;
+  color: #69239E;
 }
 
 .especialidades .especialidades-box h3{
@@ -221,7 +221,7 @@ section.sobre .flex{
 }
 
 .sobre .txt-sobre h2 span{
-  color: #004AAD;
+  color: #69239E;
   display: block;
 }
 
@@ -235,7 +235,7 @@ section.sobre .flex{
   height: 60px;
   border-radius: 50%;
   border: 0;
-  background-color: #004AAD;
+  background-color: #69239E;
   font-size: 25px;
   cursor: pointer;
   margin: 0 5px;
@@ -280,7 +280,7 @@ form .btn-enviar{
 
 form .btn-enviar input{
   width: 120px;
-  background-color: #004AAD;
+  background-color: #69239E;
   color: black;
   font-weight: 700;
   cursor: pointer;
@@ -303,11 +303,11 @@ footer .line-footer{
 }
 
 .borda{
-  border-top: 2px solid #004AAD;
+  border-top: 2px solid #69239E;
 }
 
 footer .line-footer p i{
-  color: #004AAD;
+  color: #69239E;
   font-size: 22px;
 }
 
