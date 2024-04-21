@@ -1,23 +1,29 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Fontes começo-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
     <!--Fontes fim-->
     <!--icones-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <!--fim icones-->
     <link rel="stylesheet" href="index.css">
-    
+
+    <script src="index.js" defer></script>
+
     <title>Portfólio</title>
     <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
+
 <body>
-    
+
     <header id="inicio">
         <div class="interface">
             <div class="logo">
@@ -27,13 +33,12 @@
             </div><!--logo-->
 
             <nav class="menu-desktop">
-                	<ul>
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#especialidades">Especialidades</a></li>
-                        <li><a href="#sobre mim">Sobre</a></li>
-                        <li><a href="#formulario">Formulário</a></li>
-                        
-                    </ul>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre mim">Sobre</a></li>
+                    <li><a href="#formulario">Formulário</a></li>
+                </ul>
             </nav>
 
             <div class="contatos">
@@ -41,10 +46,33 @@
                     <button>Contato</button>
                 </a>
             </div><!--contatos-->
+
+            <!--btn abrir menu mobile-->
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-circle-fill"></i>
+                </div><!--btn-fechar-->
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre mim">Sobre</a></li>
+                        <li><a href="#formulario">Formulário</a></li>
+                        <li><a href="#formulario">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div><!--overlay-menu-->
         </div><!--interface-->
     </header>
-    
-<!--html topo do site-->
+
+    <!--html topo do site-->
 
     <main>
         <section class="topo-do-site">
@@ -60,7 +88,7 @@
                             </a>
                         </div>
                     </div><!--txt-topo-site-->
-                    
+
                     <div class="img-topo-site">
                         <img src="images/meninu_bunito_redondo.png" alt="">
                     </div><!--img-topo-site-->
@@ -75,28 +103,37 @@
                     <div class="especialidades-box">
                         <i class="bi bi-filetype-html"></i>
                         <h3>HTML</h3>
-                        <p>A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior parte das páginas da internet e dos aplicativos online. Linguagem aprendida na Universidade de Vila Velha (UVV).</p>
+                        <p>A Linguagem de Marcação de Hipertexto (HTML) é uma linguagem de computador que compõe a maior
+                            parte das páginas da internet e dos aplicativos online. Linguagem aprendida na Universidade
+                            de Vila Velha (UVV).</p>
                     </div><!--especialidades-box-->
                     <div class="especialidades-box">
                         <i class="bi bi-filetype-css"></i>
                         <h3>CSS</h3>
-                        <p>O CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos escritos em uma linguagem de marcação como HTML, o CSS separa o conteúdo da decoração do site. Linguagem aprendida na Universidade de Vila Velha (UVV).</p>
+                        <p>O CSS é chamado de linguagem Cascading Style Sheet e é usado para estilizar elementos
+                            escritos em uma linguagem de marcação como HTML, o CSS separa o conteúdo da decoração do
+                            site. Linguagem aprendida na Universidade de Vila Velha (UVV).</p>
                     </div><!--especialidades-box-->
                     <div class="especialidades-box">
-                        <i class="bi bi-file-word"></i>                        
+                        <i class="bi bi-file-word"></i>
                         <h3>WORD</h3>
-                        <p>O Word é um processador de textos desenvolvido pela empresa norte-americana Microsoft, esse software de processamento de textos permite ao usuário criar, editar e modificar documentos que incluem texto formatado e outros objetos gráficos. Aprendida na SEV7N Cursos.</p>
+                        <p>O Word é um processador de textos desenvolvido pela empresa norte-americana Microsoft, esse
+                            software de processamento de textos permite ao usuário criar, editar e modificar documentos
+                            que incluem texto formatado e outros objetos gráficos. Aprendida na SEV7N Cursos.</p>
                     </div><!--especialidades-box-->
                     <div class="especialidades-box">
-                        <i class="bi bi-file-excel"></i>                        
+                        <i class="bi bi-file-excel"></i>
                         <h3>EXCEL</h3>
-                        <p>O Excel é um programa informático desenvolvido e distribuído pela empresa norte-americana Microsoft, trata-se de um software que permite realizar tarefas contabilísticas e financeiras graças às suas aplicações para criar e trabalhar com folhas de cálculo. Aprendida na SEV7N Cursos.</p>
+                        <p>O Excel é um programa informático desenvolvido e distribuído pela empresa norte-americana
+                            Microsoft, trata-se de um software que permite realizar tarefas contabilísticas e
+                            financeiras graças às suas aplicações para criar e trabalhar com folhas de cálculo.
+                            Aprendida na SEV7N Cursos.</p>
                     </div><!--especialidades-box-->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--especialidades-->
-    
-<!--html sobre-->
+
+        <!--html sobre-->
 
         <section id="sobre mim" class="sobre">
             <div class="interface">
@@ -107,33 +144,38 @@
 
                     <div class="txt-sobre">
                         <h2>MUITO PRAZER, <span>SOU JOÃO GABRIEL.</span></h2>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat temporibus voluptatibus, ducimus quibusdam est nihil iste necessitatibus culpa soluta libero ex quia aliquam a commodi omnis accusamus corrupti modi non.</p>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque facere perferendis molestias quia explicabo, rem quidem fugiat aut, nemo doloribus voluptate distinctio quisquam ipsa accusamus consectetur quaerat neque eveniet rerum.</p>
+                        <p>Um cientista da computação que passou a vida estudando no SESI de Cobilândia. Desde cedo, desenvolvi uma paixão por desvendar os mistérios da tecnologia e mergulhar fundo no mundo da programação. Sou um verdadeiro fanático por aprender coisas novas, sempre buscando expandir meu conhecimento e explorar novas fronteiras.</p>
+                        <p>Tenho um carisma natural e uma natureza amigável, encontro grande satisfação em interagir com colegas. Minha paixão por carros e programar vai além do trabalho. Enxergo a programação não apenas como uma habilidade, mas como uma forma de expressão e resolução de problemas.</p>
+                        <p>Ao longo da minha vida, tenho buscado desafios que me permitam crescer profissionalmente e pessoalmente. Sou grato pela oportunidade de seguir minha paixão e contribuir para o avanço da tecnologia, sempre mantendo o espírito aberto e receptivo a novas descobertas.</p>
                         <div class="btn-social">
-                            <a href="https://www.instagram.com/joaoalvarenga.br?igsh=bWNubXMzMDJzeGU="><button><i class="bi bi-instagram"></i></button></a>
-                            <a href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-alvarenga-botelho-088a972b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button><i class="bi bi-linkedin"></i></button></a>
-                            <a href="https://github.com/JoaozinAlvarenga/Meu-portfolio"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.instagram.com/joaoalvarenga.br?igsh=bWNubXMzMDJzeGU="><button><i
+                                        class="bi bi-instagram"></i></button></a>
+                            <a
+                                href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-alvarenga-botelho-088a972b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button><i
+                                        class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/JoaozinAlvarenga/Meu-portfolio"><button><i
+                                        class="bi bi-github"></i></button></a>
                         </div><!--btn-social-->
                     </div><!--txt-sobre-->
                 </div><!--flex-->
             </div><!--interface-->
         </section><!--sobre-->
-    
-<!--html formulario-->
-    <section id="formulario" class="formulario">
-        <div class="interface">
-            <h2 class="titulo">FALA <span>COMIGO.</span></h2>
 
-            <form action="">
-                <input type="text" name="" id="" placeholder="Seu nome completo" required>
-                <input type="text" name="" id="" placeholder="Seu e-mail" required>
-                <input type="text" name="" id="" placeholder="Seu celular">
-                <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
-                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
-            </form>
-        </div><!--interface-->
-    </section><!--formulario-->
-    
+        <!--html formulario-->
+        <section id="formulario" class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form action="">
+                    <input type="text" name="" id="" placeholder="Seu nome completo" required>
+                    <input type="text" name="" id="" placeholder="Seu e-mail" required>
+                    <input type="text" name="" id="" placeholder="Seu celular">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
     </main>
 
     <footer>
@@ -144,17 +186,23 @@
                         <img src="images/loginhoroxo.png" alt="logo JG" width="90px">
                     </div><!--logo footer-->
                     <div class="btn-social">
-                        <a href="https://www.instagram.com/joaoalvarenga.br?igsh=bWNubXMzMDJzeGU="><button><i class="bi bi-instagram"></i></button></a>
-                        <a href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-alvarenga-botelho-088a972b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button><i class="bi bi-linkedin"></i></button></a>
-                        <a href="https://github.com/JoaozinAlvarenga/Meu-portfolio"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.instagram.com/joaoalvarenga.br?igsh=bWNubXMzMDJzeGU="><button><i
+                                    class="bi bi-instagram"></i></button></a>
+                        <a
+                            href="https://www.linkedin.com/in/jo%C3%A3o-gabriel-alvarenga-botelho-088a972b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><button><i
+                                    class="bi bi-linkedin"></i></button></a>
+                        <a href="https://github.com/JoaozinAlvarenga/Meu-portfolio"><button><i
+                                    class="bi bi-github"></i></button></a>
                     </div><!--line-footer-->
                 </div><!--flex-->
-                </div><!--btn-social-->
+            </div><!--btn-social-->
             <div class="line-footer borda">
-                <p><i class="bi bi-envelope"></i> <a href="mailto:joaomais20157@gmail.com">joaomais20157@gmail.com</a></p>
+                <p><i class="bi bi-envelope"></i> <a href="mailto:joaomais20157@gmail.com">joaomais20157@gmail.com</a>
+                </p>
             </div><!--line-footer-->
         </div><!--interface-->
     </footer>
 
 </body>
+
 </html>
