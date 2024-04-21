@@ -121,7 +121,6 @@ header nav.menu-desktop a:hover {
 
 header nav ul {
   list-style-type: none;
-
 }
 
 header nav.menu-desktop ul li {
@@ -144,7 +143,7 @@ header nav.menu-desktop ul li {
   z-index: 99999;
   width: 0%;
   overflow: hidden;
-  transition: .4s;
+  transition: .5s;
 }
 
 .menu-mobile.abrir-menu {
@@ -182,7 +181,7 @@ header nav.menu-desktop ul li {
 }
 
 .overlay-menu {
-  background-color: rgba(0, 0, 0, 0.808);
+  background-color: rgba(0, 0, 0, 0.555);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -192,6 +191,9 @@ header nav.menu-desktop ul li {
   display: none;
 }
 
+.btn-abrir-menu{
+  display: none;
+}
 
 /* Estilo do topo do site */
 section.topo-do-site {
@@ -392,6 +394,10 @@ footer .line-footer p a {
   h2.titulo {
     font-size: 32px;
     line-height: 30px;
+  }
+
+  .btn-abrir-menu {
+    display: block;
   }
 
   /* CABEÇALHO */
