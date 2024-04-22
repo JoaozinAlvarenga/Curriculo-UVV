@@ -100,6 +100,21 @@ header {
   padding: 40px 4%;
 }
 
+nav a::after{
+  content:" ";
+  width: 0%;
+  height: 2.5px;
+  background-color: #b14aff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: .5s ease-in-out;
+}
+
+nav a:hover::after{
+  width: 100%;
+}
+
 header>.interface {
   display: flex;
   align-items: center;
