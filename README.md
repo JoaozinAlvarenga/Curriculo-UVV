@@ -8,6 +8,6 @@
   <div><br/>
       
 ## Sites utilizados 🤑
-[![Emojipedia](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://emojipedia.org)<br>
-[![GitHbu Anuraghazra](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#themes)<br>
+[![Emojipedia](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://emojipedia.org)
+[![GitHbu Anuraghazra](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#themes)
 [![Awesome Badges](https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://dev.to/envoy_/150-badges-for-github-pnk)
